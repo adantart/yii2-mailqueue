@@ -3,10 +3,10 @@
 /**
  * Mail Command Controller
  * 
- * @author Rochdi B. <rochdi80tn@gmail.com>
+ * @author Alex Dantart <dantart@gmail.com>
  */
 
-namespace dantart\mailqueue;
+namespace adantart\mailqueue;
 
 use yii\base\Application;
 use yii\base\BootstrapInterface;
@@ -31,7 +31,7 @@ class Bootstrap implements BootstrapInterface
     {
       
         if ($app instanceof \yii\console\Application) {
-            $app->controllerMap['mailqueue'] = 'dantart\mailqueue\commands\MailQueueController';
+            $app->controllerMap['mailqueue'] = 'adantart\mailqueue\commands\MailQueueController';
         }
         
     }

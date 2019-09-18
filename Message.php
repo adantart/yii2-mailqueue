@@ -2,13 +2,13 @@
 
 /**
  * Message.php
- * @author Saranga Abeykoon http://dantart.com
+ * @author Alex Dantart <dantart@gmail.com>
  */
 
-namespace dantart\mailqueue;
+namespace adantart\mailqueue;
 
 use Yii;
-use dantart\mailqueue\models\Queue;
+use adantart\mailqueue\models\Queue;
 
 /**
  * Extends `yii\swiftmailer\Message` to enable queuing.

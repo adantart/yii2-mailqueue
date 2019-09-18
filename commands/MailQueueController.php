@@ -3,17 +3,17 @@
 /**
  * Mail Command Controller
  * 
- * @author Rochdi B. <rochdi80tn@gmail.com>
+ * @author Alex Dantart <dantart@gmail.com>
  */
 
-namespace dantart\mailqueue\commands;
+namespace adantart\mailqueue\commands;
 
 use yii\console\Controller;
 
 /**
  * This command processes the mail queue
  *
- * @author Rochdi B. <rochdi80tn@gmail.com>
+ * @author Alex Dantart <dantart@gmail.com>
  * @since 0.0.6
  */
 class MailQueueController extends Controller

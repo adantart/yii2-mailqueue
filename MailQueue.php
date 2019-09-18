@@ -2,15 +2,15 @@
 
 /**
  * MailQueue.php
- * @author Saranga Abeykoon http://dantart.com
+ * @author Alex Dantart <dantart@gmail.com>
  */
 
-namespace dantart\mailqueue;
+namespace adantart\mailqueue;
 
 use Yii;
 use yii\swiftmailer\Mailer;
-use dantart\mailqueue\Message;
-use dantart\mailqueue\models\Queue;
+use adantart\mailqueue\Message;
+use adantart\mailqueue\models\Queue;
 use yii\base\ErrorException;
 
 /**
@@ -54,7 +54,7 @@ class MailQueue extends Mailer
 	/**
 	 * @var string message default class name.
 	 */
-	public $messageClass = 'dantart\mailqueue\Message';
+	public $messageClass = 'adantart\mailqueue\Message';
 
 	/**
 	 * @var string the name of the database table to store the mail queue.

@@ -1,11 +1,11 @@
 <?php
 
-namespace dantart\mailqueue\models;
+namespace adantart\mailqueue\models;
 
 use Yii;
 use yii\db\ActiveRecord;
-use dantart\mailqueue\MailQueue;
-use dantart\mailqueue\Message;
+use adantart\mailqueue\MailQueue;
+use adantart\mailqueue\Message;
 
 /**
  * This is the model class for table "{{%mail_queue}}".
